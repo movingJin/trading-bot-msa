@@ -30,22 +30,27 @@ Discovery Service, Gateway Service, Authentication Service, Trading Service, Tic
 모든 서비스는 docker container로 이미지화되어 운영됨.
 ![image](https://user-images.githubusercontent.com/23163982/152644026-7cae5651-466c-4c72-b2e5-32c37f4b4b96.png)
 * Discovery Service
+  * https://github.com/movingJin/discovery-service
   * Trading-bot에 필요한 모든 back-end 서비스 관리를 위한 서비스.
   * 서비스 탐색기능 지원.
   * Spring Eureka 기반.
 
 * Gateway Service
+  * https://github.com/movingJin/gateway-service
   * front-end와 API 통신을 위한 서비스. 모든 API는 Gateway를 통해 통신되어 짐.
 
 * Authentication Service
+  * https://github.com/movingJin/authentication-service
   * 사용자관리, 인증관리 기능 담당
   
 * Trading Service
+  * https://github.com/movingJin/trading-service
   * 거래기능, 트레이딩봇관련 API, 거래이력관리 등 Trading-bot의 핵심기능 담당.
   * Redis로 부터 얻어온 이동평균선과 현재가를 기반으로 거래로직 수행
   * 트레이딩봇 정보를 MariaDB에 저장
   
 * Ticker Service
+  * https://github.com/movingJin/ticker-service
   * Ticker 및 시세관리 기능.
   * Web socket을 사용하여 Bithumb 서버로부터 Ticker 취득
   * Ticker 이력은 MongoDB에 저장
