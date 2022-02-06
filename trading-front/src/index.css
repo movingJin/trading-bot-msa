@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Btro_core";
+  src: url("./assets/fonts/비트로\ 코어\ TTF.ttf");
+}
+@font-face {
+  font-family: "sleig";
+  src: url("./assets/fonts/SLEIGothicTTF.ttf");
+}
+@font-face {
+  font-family: "surround";
+  src: url("./assets/fonts/Cafe24Ssurround.ttf");
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

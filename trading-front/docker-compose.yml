@@ -1,0 +1,9 @@
+version: "3"
+services:
+  react-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 22732:22732
+    stdin_open: true # docker run의 -i 옵션. react 한정으로 필요함.
