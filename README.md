@@ -6,7 +6,7 @@ MSA(Micro Service Architecture) 기반의 암호화폐 자동거래 시스템 �
 매도조건은 매수된 암호화폐의 현재가가 수익율 대비 설정비율(%)을 초과하는 경우에 매도합니다.  
 
 ## How to use
-**1. http://trading-bot.movingjin.com:22732/ 에 접속, 처음사용인 경우 회원가입 진행, 기존 사용자의 경우, 로그인 페이지에서 로그인**  
+**1. http://trading-bot.movingjin.com/ 에 접속, 처음사용인 경우 회원가입 진행, 기존 사용자의 경우, 로그인 페이지에서 로그인**  
 <img src="https://user-images.githubusercontent.com/23163982/152641261-a1d8a99b-695d-4d7c-bc70-2b17be879692.png" width="400" height="400"/>
 <img src="https://user-images.githubusercontent.com/23163982/152641443-73ed962e-4cb4-49a6-a9bc-cf514b837aea.png" width="500" height="400"/>  
 
